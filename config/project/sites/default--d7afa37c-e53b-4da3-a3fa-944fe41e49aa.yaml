@@ -1,0 +1,9 @@
+baseUrl: $DEFAULT_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: Craftplate
+primary: true
+siteGroup: c76e15dc-6377-45e5-9e68-9f083ca06f00 # Craftplate
+sortOrder: 1

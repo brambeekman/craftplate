@@ -1,0 +1,22 @@
+dateModified: 1619029807
+email:
+  fromEmail: hello@brambeekman.com
+  fromName: IJzerwebshop
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+system:
+  edition: solo
+  live: true
+  name: Craftplate
+  retryDuration: null
+  schemaVersion: 3.7.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true
