@@ -19,7 +19,5 @@
 
 return [
     'modules' => [
-        'CacheBuster' => \modules\cachebuster\CacheBuster::class,
     ],
-    'bootstrap' => ['CacheBuster'],
 ];
