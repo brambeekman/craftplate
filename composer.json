@@ -19,7 +19,10 @@
     "nystudio107/craft-seomatic": "3.3.40",
     "nystudio107/craft-twigpack": "^1.2.9",
     "craftcms/aws-s3": "1.2.11",
-    "verbb/knock-knock": "1.2.14"
+    "verbb/knock-knock": "1.2.14",
+    "putyourlightson/craft-blitz-recommendations": "v1.x-dev",
+    "nystudio107/craft-minify": "v1.x-dev",
+    "sebastianlenz/linkfield": "dev-master"
   },
   "autoload": {
     "psr-4": {
