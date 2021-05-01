@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  d7afa37c-e53b-4da3-a3fa-944fe41e49aa: # Craftplate
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home
+    uriFormat: __home__
+type: single
