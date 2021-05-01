@@ -13,15 +13,15 @@
   "license": "MIT",
   "require": {
     "vlucas/phpdotenv": "^2.4.0",
-    "craftcms/cms": "^3.6.12",
+    "craftcms/cms": "^3.6.12.1",
     "verbb/super-table": "^2.3.0",
     "craftcms/redactor": "^2.4.0",
-    "nystudio107/craft-seomatic": "3.3.40",
+    "nystudio107/craft-seomatic": "^3.3.40",
     "nystudio107/craft-twigpack": "^1.2.9",
-    "craftcms/aws-s3": "1.2.11",
-    "verbb/knock-knock": "1.2.14",
-    "putyourlightson/craft-blitz-recommendations": "v1.x-dev",
-    "nystudio107/craft-minify": "v1.x-dev",
+    "craftcms/aws-s3": "^1.2.11",
+    "verbb/knock-knock": "^1.2.14",
+    "putyourlightson/craft-blitz-recommendations": "^v1.x-dev",
+    "nystudio107/craft-minify": "^v1.x-dev",
     "sebastianlenz/linkfield": "dev-master"
   },
   "autoload": {

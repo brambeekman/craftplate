@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aced31a7bdf0d0ae2fdcadfbed4af339",
+    "content-hash": "abb562371dfa73ac096bf037680bf4c3",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.178.7",
+            "version": "3.179.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9443aecbf56eb43e0c7a409494ae4c09f4cebf5f"
+                "reference": "7d3490e35878d0884905fa0c1ab43ecf178c8d9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9443aecbf56eb43e0c7a409494ae4c09f4cebf5f",
-                "reference": "9443aecbf56eb43e0c7a409494ae4c09f4cebf5f",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7d3490e35878d0884905fa0c1ab43ecf178c8d9b",
+                "reference": "7d3490e35878d0884905fa0c1ab43ecf178c8d9b",
                 "shasum": ""
             },
             "require": {
@@ -92,9 +92,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.178.7"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.179.2"
             },
-            "time": "2021-04-21T18:37:31+00:00"
+            "time": "2021-04-30T19:46:52+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -240,20 +240,21 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.0.12",
+            "version": "2.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "6c12ce263da71641903e399c3ce8ecb08fd375fb"
+                "reference": "986e8b86b7b570632ad0a905c3726c33dd4c0efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/6c12ce263da71641903e399c3ce8ecb08fd375fb",
-                "reference": "6c12ce263da71641903e399c3ce8ecb08fd375fb",
+                "url": "https://api.github.com/repos/composer/composer/zipball/986e8b86b7b570632ad0a905c3726c33dd4c0efb",
+                "reference": "986e8b86b7b570632ad0a905c3726c33dd4c0efb",
                 "shasum": ""
             },
             "require": {
                 "composer/ca-bundle": "^1.0",
+                "composer/metadata-minifier": "^1.0",
                 "composer/semver": "^3.0",
                 "composer/spdx-licenses": "^1.2",
                 "composer/xdebug-handler": "^1.1",
@@ -317,7 +318,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.0.12"
+                "source": "https://github.com/composer/composer/tree/2.0.13"
             },
             "funding": [
                 {
@@ -333,7 +334,77 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-01T08:14:59+00:00"
+            "time": "2021-04-27T11:11:08+00:00"
+        },
+        {
+            "name": "composer/metadata-minifier",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/metadata-minifier.git",
+                "reference": "c549d23829536f0d0e984aaabbf02af91f443207"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/metadata-minifier/zipball/c549d23829536f0d0e984aaabbf02af91f443207",
+                "reference": "c549d23829536f0d0e984aaabbf02af91f443207",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "^2",
+                "phpstan/phpstan": "^0.12.55",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\MetadataMinifier\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Small utility library that handles metadata minification and expansion.",
+            "keywords": [
+                "composer",
+                "compression"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/metadata-minifier/issues",
+                "source": "https://github.com/composer/metadata-minifier/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-07T13:37:33+00:00"
         },
         {
             "name": "composer/semver",
@@ -625,16 +696,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "56553939ba5780710d7f976e08a9e26930b1b854"
+                "reference": "3161ab240e9f667e3d3051e5c7ab3c0fb73e81f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/56553939ba5780710d7f976e08a9e26930b1b854",
-                "reference": "56553939ba5780710d7f976e08a9e26930b1b854",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/3161ab240e9f667e3d3051e5c7ab3c0fb73e81f2",
+                "reference": "3161ab240e9f667e3d3051e5c7ab3c0fb73e81f2",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "2.0.12",
+                "composer/composer": "2.0.13",
                 "craftcms/oauth2-craftid": "~1.0.0",
                 "craftcms/plugin-installer": "~1.5.6",
                 "craftcms/server-check": "~1.2.0",
@@ -720,7 +791,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2021-04-21T21:55:51+00:00"
+            "time": "2021-04-30T23:26:02+00:00"
         },
         {
             "name": "craftcms/oauth2-craftid",
@@ -1544,12 +1615,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "359b1f4a6fc1f3b97f8ea8ffd5a576f4f5151cff"
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/359b1f4a6fc1f3b97f8ea8ffd5a576f4f5151cff",
-                "reference": "359b1f4a6fc1f3b97f8ea8ffd5a576f4f5151cff",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/dc960a912984efb74d0a90222870c72c87f10c91",
+                "reference": "dc960a912984efb74d0a90222870c72c87f10c91",
                 "shasum": ""
             },
             "require": {
@@ -1611,7 +1682,7 @@
                 "issues": "https://github.com/guzzle/psr7/issues",
                 "source": "https://github.com/guzzle/psr7/tree/1.x"
             },
-            "time": "2021-03-21T17:21:22+00:00"
+            "time": "2021-04-26T09:17:50+00:00"
         },
         {
             "name": "intervention/httpauth",
@@ -2835,7 +2906,7 @@
         },
         {
             "name": "nystudio107/craft-seomatic",
-            "version": "3.3.40",
+            "version": "v3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-seomatic.git",
@@ -2858,6 +2929,7 @@
                 "codeception/codeception": "^3.0",
                 "vlucas/phpdotenv": "^3.0"
             },
+            "default-branch": true,
             "type": "craft-plugin",
             "extra": {
                 "name": "SEOmatic",
@@ -2908,12 +2980,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nystudio107/craft-twigpack.git",
-                "reference": "8bb90a5d465140b6466c34a3fdcf87352bd2ab77"
+                "reference": "53d8eb90a72c4fa9e7a907a943a15ab0ea6d90cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nystudio107/craft-twigpack/zipball/8bb90a5d465140b6466c34a3fdcf87352bd2ab77",
-                "reference": "8bb90a5d465140b6466c34a3fdcf87352bd2ab77",
+                "url": "https://api.github.com/repos/nystudio107/craft-twigpack/zipball/53d8eb90a72c4fa9e7a907a943a15ab0ea6d90cd",
+                "reference": "53d8eb90a72c4fa9e7a907a943a15ab0ea6d90cd",
                 "shasum": ""
             },
             "require": {
@@ -2924,12 +2996,7 @@
             "extra": {
                 "name": "Twigpack",
                 "handle": "twigpack",
-                "hasCpSettings": false,
-                "hasCpSection": false,
                 "changelogUrl": "https://raw.githubusercontent.com/craft-nystudio107/twigpack/v1/CHANGELOG.md",
-                "components": {
-                    "manifest": "nystudio107\\twigpack\\services\\Manifest"
-                },
                 "class": "nystudio107\\twigpack\\Twigpack"
             },
             "autoload": {
@@ -2960,9 +3027,9 @@
             "support": {
                 "docs": "https://nystudio107.com/plugins/twigpack/documentation",
                 "issues": "https://nystudio107.com/plugins/twigpack/support",
-                "source": "https://github.com/nystudio107/craft-twigpack/tree/1.2.13"
+                "source": "https://github.com/nystudio107/craft-twigpack/tree/1.2.14"
             },
-            "time": "2021-04-14T02:08:19+00:00"
+            "time": "2021-04-28T21:08:54+00:00"
         },
         {
             "name": "opis/closure",
@@ -3197,12 +3264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "f8d350d8514ff60b5993dd0121c62299480c989c"
+                "reference": "8719cc12e2a57ec3432a76989bb4ef773ac75b63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/f8d350d8514ff60b5993dd0121c62299480c989c",
-                "reference": "f8d350d8514ff60b5993dd0121c62299480c989c",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8719cc12e2a57ec3432a76989bb4ef773ac75b63",
+                "reference": "8719cc12e2a57ec3432a76989bb4ef773ac75b63",
                 "shasum": ""
             },
             "require": {
@@ -3246,7 +3313,7 @@
                 "issues": "https://github.com/phpDocumentor/ReflectionDocBlock/issues",
                 "source": "https://github.com/phpDocumentor/ReflectionDocBlock/tree/master"
             },
-            "time": "2021-03-07T11:12:25+00:00"
+            "time": "2021-04-23T09:50:58+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -4152,12 +4219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "1d077bd682f7c0794d5f5b794b16e2b30febec6b"
+                "reference": "959bfea5f92bd9b0b278f458a69cfd3f96dd411d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/1d077bd682f7c0794d5f5b794b16e2b30febec6b",
-                "reference": "1d077bd682f7c0794d5f5b794b16e2b30febec6b",
+                "url": "https://api.github.com/repos/symfony/console/zipball/959bfea5f92bd9b0b278f458a69cfd3f96dd411d",
+                "reference": "959bfea5f92bd9b0b278f458a69cfd3f96dd411d",
                 "shasum": ""
             },
             "require": {
@@ -4227,7 +4294,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.3.0-BETA1"
+                "source": "https://github.com/symfony/console/tree/5.x"
             },
             "funding": [
                 {
@@ -4243,7 +4310,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-16T17:36:28+00:00"
+            "time": "2021-05-01T00:53:07+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4860,12 +4927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "298b87cbbe99cb2c9f88fb1d1de78833b64b483e"
+                "reference": "9ad2f3c9de0273812c616fdf96070a129c3defcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/298b87cbbe99cb2c9f88fb1d1de78833b64b483e",
-                "reference": "298b87cbbe99cb2c9f88fb1d1de78833b64b483e",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9ad2f3c9de0273812c616fdf96070a129c3defcb",
+                "reference": "9ad2f3c9de0273812c616fdf96070a129c3defcb",
                 "shasum": ""
             },
             "require": {
@@ -4933,7 +5000,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-19T09:32:22+00:00"
+            "time": "2021-04-23T08:04:02+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
@@ -5409,12 +5476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "8c98ad27ef5e3136237405b7653fa41498849b6f"
+                "reference": "505f470743c125b7c3f1662f0e726c4f77ec4d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/8c98ad27ef5e3136237405b7653fa41498849b6f",
-                "reference": "8c98ad27ef5e3136237405b7653fa41498849b6f",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/505f470743c125b7c3f1662f0e726c4f77ec4d85",
+                "reference": "505f470743c125b7c3f1662f0e726c4f77ec4d85",
                 "shasum": ""
             },
             "require": {
@@ -5461,7 +5528,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v5.3.0-BETA1"
+                "source": "https://github.com/symfony/yaml/tree/5.x"
             },
             "funding": [
                 {
@@ -5477,7 +5544,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-11T23:07:08+00:00"
+            "time": "2021-05-01T00:53:07+00:00"
         },
         {
             "name": "true/punycode",
