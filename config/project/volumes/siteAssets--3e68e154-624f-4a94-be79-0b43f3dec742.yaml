@@ -1,5 +1,5 @@
 fieldLayouts:
-  a192cd8b-5e12-42eb-a6ef-99598344f9b1:
+  ccdbc589-e92f-43ac-9171-935a79e9015b:
     tabs:
       -
         elements:
@@ -23,25 +23,18 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
-            warning: null
-            width: 100
-          -
-            fieldUid: 7c75b8c4-9a49-4eda-99a4-7a2332dab256 # Header Builder
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
+            type: craft\fieldlayoutelements\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: homepage
-hasTitleField: false
-name: Homepage
-section: 193761b1-7bed-4449-bbb2-630236ed249d # Homepage
+handle: siteAssets
+hasUrls: true
+name: 'Site Assets'
+settings:
+  path: '@webroot/assets/images/siteassets'
 sortOrder: 1
-titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
-titleTranslationMethod: site
+titleTranslationMethod: null
+type: craft\volumes\Local
+url: '@web/assets/images/siteassets'
