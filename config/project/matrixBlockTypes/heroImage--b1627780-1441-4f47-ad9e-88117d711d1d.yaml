@@ -55,9 +55,9 @@ fields:
       allowSelfRelations: false
       allowUploads: true
       allowedKinds: null
-      defaultUploadLocationSource: ''
+      defaultUploadLocationSource: 'volume:3e68e154-624f-4a94-be79-0b43f3dec742' # Site Assets
       defaultUploadLocationSubpath: ''
-      limit: ''
+      limit: '1'
       localizeRelations: false
       previewMode: full
       restrictFiles: ''
@@ -65,7 +65,7 @@ fields:
       showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      singleUploadLocationSource: ''
+      singleUploadLocationSource: 'volume:3e68e154-624f-4a94-be79-0b43f3dec742' # Site Assets
       singleUploadLocationSubpath: ''
       source: null
       sources: '*'
