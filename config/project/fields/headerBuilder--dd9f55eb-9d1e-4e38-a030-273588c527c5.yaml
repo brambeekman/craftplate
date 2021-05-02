@@ -1,6 +1,5 @@
-columnSuffix: null
 contentColumnType: string
-fieldGroup: 7e769544-ea62-49b5-84ef-77d76f60a2da # Builders
+fieldGroup: 6fdeb603-3c3a-4fec-a819-1fcd624cb2a4 # Builders
 handle: headerBuilder
 instructions: ''
 name: 'Header Builder'
@@ -9,7 +8,6 @@ settings:
   contentTable: '{{%matrixcontent_headerbuilder}}'
   maxBlocks: ''
   minBlocks: ''
-  propagationKeyFormat: null
   propagationMethod: all
 translationKeyFormat: null
 translationMethod: site

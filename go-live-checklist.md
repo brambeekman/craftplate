@@ -96,5 +96,3 @@
 - [ ] Testing the json ld is set correctly [https://search.google.com/structured-data/testing-tool/u/0/?hl=en](https://search.google.com/structured-data/testing-tool/u/0/?hl=en)
 - [ ] Doing a global SEO audit
 - [ ] AMP is working
-
-Brought to you by [Percipio.London](https://percipio.london/)

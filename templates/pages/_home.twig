@@ -2,6 +2,14 @@
 
 {% block content %}
 
-    <a href="https://brambeekman.com">brambeekman.com</a>
+    {%- switch entry.type -%}
+
+    {%- case "homepage" -%}
+
+        {%- include '_organisms/entry-types/entry--home' ignore missing with {
+            content: entry,
+        } -%}
+
+    {%- endswitch -%}
 
 {% endblock %}

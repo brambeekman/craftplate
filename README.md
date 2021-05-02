@@ -59,6 +59,7 @@ Run `npm run build` if you are ready for production, this will minify the javasc
    * Layout folder with `_master.twig` file, which contains basic layout file ( css and js includes aswell as seo plugin )
 * Craft Plugins
    * Blitz Recommendations
+   * Eager Beaver
    * Minify
    * Twigpack
    * Typed link field
