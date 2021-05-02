@@ -9,20 +9,26 @@
       "homepage": "https://brambeekman.com"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "license": "MIT",
   "require": {
-    "vlucas/phpdotenv": "^2.4.0",
+    "craftcms/aws-s3": "^1.2.11",
     "craftcms/cms": "^3.6.12.1",
-    "verbb/super-table": "^2.3.0",
     "craftcms/redactor": "^2.4.0",
+    "nystudio107/craft-eagerbeaver": "^1.0",
+    "nystudio107/craft-minify": "^v1.x-dev",
     "nystudio107/craft-seomatic": "^3.3.40",
     "nystudio107/craft-twigpack": "^1.2.9",
-    "craftcms/aws-s3": "^1.2.11",
-    "verbb/knock-knock": "^1.2.14",
+    "nystudio107/craft-typogrify": "^1.1.4",
     "putyourlightson/craft-blitz-recommendations": "^v1.x-dev",
-    "nystudio107/craft-minify": "^v1.x-dev",
-    "sebastianlenz/linkfield": "dev-master"
+    "sebastianlenz/linkfield": "dev-master",
+    "verbb/knock-knock": "^1.2.14",
+    "verbb/super-table": "^2.3.0",
+    "vlucas/phpdotenv": "^2.4.0",
+    "yiisoft/yii2-redis": "^2.0.6"
+  },
+  "require-dev": {
+    "yiisoft/yii2-shell": "^2.0.3"
   },
   "autoload": {
     "psr-4": {
@@ -30,6 +36,7 @@
     }
   },
   "config": {
+    "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
       "php": "7.3"

@@ -3,7 +3,7 @@ handle: homepage
 name: Homepage
 propagationMethod: all
 siteSettings:
-  d7afa37c-e53b-4da3-a3fa-944fe41e49aa: # Craftplate
+  3ba5f733-e6a9-442b-bb42-879ad8da0dcc: # Craftplate
     enabledByDefault: true
     hasUrls: true
     template: pages/_home
