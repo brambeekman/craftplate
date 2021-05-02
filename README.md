@@ -18,7 +18,7 @@ Before installing you need the following software installed on your local machin
 ### Installing
 1. Create the project using either composer or git clone:
     -  Composer: `IS COMING`
-    -  Git: `git clone https://github.com/wirelab/wirecraft.git [projectname]`
+    -  Git: `git clone https://github.com/brambeekman/craftplate.git [projectname]`
 2. `cd [projectname]` into the project
 3. Create database
     - `mysql -u [username]` (add `-p` if you have a password)
