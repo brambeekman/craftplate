@@ -1,4 +1,4 @@
-dateModified: 1619945017
+dateModified: 1621013917
 email:
   fromEmail: hello@brambeekman.com
   fromName: Craftplate
@@ -13,6 +13,10 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
   minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  purge-assets:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
