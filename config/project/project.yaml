@@ -1,8 +1,35 @@
-dateModified: 1623148819
+dateModified: 1626432078
 email:
   fromEmail: hello@brambeekman.com
   fromName: Craftplate
   transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1e7182b3-9930-43ff-aefc-bf4e7993cc52: Clothing # Clothing
+    3ba5f733-e6a9-442b-bb42-879ad8da0dcc: Craftplate # Craftplate
+    5ae28e61-fc43-44ce-99a5-b981d20fa42e: Homepage # Homepage
+    6c93af9e-a27b-456b-a575-8ab6b4a28146: 'Hero Content' # Hero Content
+    6fdeb603-3c3a-4fec-a819-1fcd624cb2a4: Builders # Builders
+    9c005da4-742e-4859-a321-75a4230e3111: Homepage # Homepage
+    37a35be0-404f-4f3d-a5d2-47a2fdbff518: Buttons # Buttons
+    567ff355-c7cb-4367-b806-d0246a11179e: Button # Button
+    8541cd6d-6289-4dc6-bbce-e9656e5970e4: Clothing # Clothing
+    42613c9e-4eba-4f5b-b388-6fae8f8c6f71: New # New
+    50552bb0-8f67-4404-9000-a53601d5aef0: New # New
+    125520dc-9823-4149-bccb-e1e62b60a19d: New # New
+    a195dabc-5c9d-4cf6-95aa-8c248b3421fd: Common # Common
+    b0c12204-7bc6-4d14-8fd0-8c43c5eb397a: New # New
+    bb3daa09-3ba2-403e-acfe-fa2c7d3a7664: Clothing # Clothing
+    c6b6b728-b968-4ccc-884e-539ddb1748c3: Dummy # Dummy
+    c9e8e8de-f207-4a7f-9a29-9ab1b6b63744: Heading # Heading
+    c830a378-1107-4947-a457-d7648d54eed7: Craftplate # Craftplate
+    cb151897-43f8-4dff-b37d-775c4c184262: Dummy # Dummy
+    dd9f55eb-9d1e-4e38-a030-273588c527c5: 'Header Builder' # Header Builder
+    f9ce69fd-95ff-4815-9ff1-26cf9284bfea: Clothing # Clothing
+    f219c73b-b4de-45b5-9e80-3cbeef31f4ec: Description # Description
+    f6353041-9ff7-47a1-a8e1-3bcad1b5c5ce: 'Site Assets' # Site Assets
+    fdf8e95c-b08a-4cda-97d2-e379a98d865e: Dummy # Dummy
+    fe6fc5ac-92ee-4238-92a8-2e6ed2090710: Dummy # Dummy
 plugins:
   blitz-recommendations:
     edition: standard
@@ -44,7 +71,7 @@ system:
   edition: solo
   live: true
   name: Craftplate
-  schemaVersion: 3.6.8
+  schemaVersion: 3.7.7
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

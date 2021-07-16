@@ -19,14 +19,14 @@
     }
   ],
   "require": {
-    "brambeekman/purge-assets": "@dev",
+    "brambeekman/purge-assets": "1.2.0",
     "craftcms/aws-s3": "^1.2.11",
-    "craftcms/cms": "3.6.16",
+    "craftcms/cms": "3.7.2",
     "craftcms/redactor": "^2.4.0",
     "nystudio107/craft-eagerbeaver": "^1.0",
     "nystudio107/craft-minify": "^v1.x-dev",
     "nystudio107/craft-seomatic": "^3.3.40",
-    "nystudio107/craft-twigpack": "^1.2.9",
+    "nystudio107/craft-twigpack": "1.2.15",
     "nystudio107/craft-typogrify": "^1.1.4",
     "putyourlightson/craft-blitz-recommendations": "^v1.x-dev",
     "sebastianlenz/linkfield": "dev-master",
