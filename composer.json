@@ -12,10 +12,16 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../plugins/purgeassets"
+    }
+  ],
   "require": {
-    "brambeekman/purge-assets": "1.1.1",
+    "brambeekman/purge-assets": "@dev",
     "craftcms/aws-s3": "^1.2.11",
-    "craftcms/cms": "^3.6.12.1",
+    "craftcms/cms": "3.6.16",
     "craftcms/redactor": "^2.4.0",
     "nystudio107/craft-eagerbeaver": "^1.0",
     "nystudio107/craft-minify": "^v1.x-dev",
@@ -25,7 +31,7 @@
     "putyourlightson/craft-blitz-recommendations": "^v1.x-dev",
     "sebastianlenz/linkfield": "dev-master",
     "verbb/knock-knock": "^1.2.14",
-    "verbb/super-table": "^2.3.0",
+    "verbb/super-table": "2.6.8",
     "vlucas/phpdotenv": "^2.4.0",
     "yiisoft/yii2-redis": "^2.0.6"
   },
