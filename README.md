@@ -2,7 +2,7 @@
 
 This is an alternate scaffolding package for Craft 3 CMS projects to Pixel & Tonic's canonical [craftcms/craft](https://github.com/craftcms/craft) package.
 
-The project is based on [Craft CMS](https://craftcms.com), [Wirelab](https://wirelab.com) & [Percipio](https://percipio.london) boilerplate using a unique `templates/_layouts` system for web pages, and implements a number of technologies/techniques:
+The project is based on [Craft CMS](https://craftcms.com) & [Percipio](https://percipio.london) boilerplate using a unique `templates/_layouts` system for web pages, and implements a number of technologies/techniques:
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -29,7 +29,6 @@ Before installing you need the following software installed on your local machin
     - Run `cp .env.example .env` to create the environment file.
 7. Run `./craft setup`
     - Use as CMS username: `admin`
-    - Generate a password using 1password or another password generator
 8. Run `composer update`
 9. Run `npm run dev` and wait until it opens in your browser
 
@@ -49,13 +48,13 @@ Then, we need to install all the plugins we use into your new project.
 7. Save the file and checkout your new homepage on ,http://localhost:1423/,
 
 ## Production build
-Run `npm run build` if you are ready for production, this will minify the javascript and css files.
+Run `npm run prod` if you are ready for production, this will minify the javascript and css files.
 
 ### Boilerplate information
 * Craft CMS (clean install)
 * Basic folder structure
-   * Src folder with JS and SCSS
-   * Starting files ( `app.scss` / `app.js` )
+   * Src folder with JS and TailwindCSS
+   * Starting files ( `style.css` / `app.js` )
    * Layout folder with `_master.twig` file, which contains basic layout file ( css and js includes aswell as seo plugin )
 * Craft Plugins
    * Purge Assets
@@ -75,7 +74,6 @@ Run `npm run build` if you are ready for production, this will minify the javasc
 * TailwindCSS
 * Webpack (for compiling css and js)
    * ES6 functionality
-   * SCSS
    * VueJS
    * File-loader
    * Babel
