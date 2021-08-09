@@ -21,7 +21,6 @@
 - [ ] Meta info is set
 - [ ] Add Tailwindcss classes to purgeCSS whitelist
 - [ ] All criticalCSS templates are added
-- [ ] Buddy.yml is set correctly
 - [ ] data-tag-[category|action|labelvalue] tags added to downloads/forms for GA
 - [ ] Does the app use localStorage
 - [ ] AMP templates are added
