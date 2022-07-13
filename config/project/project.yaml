@@ -1,13 +1,15 @@
-dateModified: 1657707173
+dateModified: 1657710459
 email:
   fromEmail: brambeekman17@gmail.com
   fromName: Craftplate
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    8eaabcc4-6349-4101-b4a9-11b4a70db1f6: Craftplate
-    37ef90fe-6989-4c2c-9837-2a5a6c3ba34a: Common
-    66a468a2-cd23-4e16-a325-dc33bf9edffa: Craftplate
+    8c2bb09a-0d56-4cce-8207-25e2d39b547b: Home
+    8eaabcc4-6349-4101-b4a9-11b4a70db1f6: Craftplate # Craftplate
+    37ef90fe-6989-4c2c-9837-2a5a6c3ba34a: Common # Common
+    66a468a2-cd23-4e16-a325-dc33bf9edffa: Craftplate # Craftplate
+    b060b590-a9e6-48f0-bf55-192838bf39b1: Home
 system:
   edition: solo
   live: true

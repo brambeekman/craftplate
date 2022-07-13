@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  8eaabcc4-6349-4101-b4a9-11b4a70db1f6: # Craftplate
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_home.twig
+    uriFormat: __home__
+type: single
